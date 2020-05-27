@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="script.js"></script>
+    <script src="products.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <h1>Online Grocer</h1>
+
+    <div id="dietSelection" class="section">
+        <h3>Customer Information</h3>
+        <p>Tell us a bit about you.</p>
+        Choose your preferences:
+        <br>
+
+        <form id="dietSelectionForm" name="dietSelect">
+            <input type="checkbox" name="option1" value="Vegetarian">
+            <label for="option1"> Vegetarian Diet</label><br>
+            <input type="checkbox" name="option2" value="GlutenFree">
+            <label for="option2"> Avoid Gluten</label><br>
+            <input type="checkbox" name="option2" value="Organic">
+            <label for="option2"> Prefer Organic Items</label><br>
+        </form>
+        <br>
+        <button id="selectPreferences" type="button" class="block" onclick="populateListProductChoices()">
+			Start Shopping
+		</button>
+    </div>
+
+    <div id="controls" class="section">
+        <input type="radio" id="everything" name="foodType" value="3" checked onclick="populateListProductChoices();">
+        <label for="everything">everything</label>
+        <input type="radio" id="drinks" name="foodType" value="0" onclick="populateListProductChoices();">
+        <label for="drink">drink</label>
+        <input type="radio" id="snacks" name="foodType" value="1" onclick="populateListProductChoices();">
+        <label for="snack">snack</label>
+        <input type="radio" id="meals" name="foodType" value="2" onclick="populateListProductChoices();">
+        <label for="meal">meal</label>
+    </div>
+
+    <div id="productSelection" class="section">
+        <div class="instructions">
+            <h3>Your targeted products</h3>
+            <p>We preselected products based on your preferences.</p>
+            Choose items to buy:
+        </div>
+        
+        <div id="displayProduct"></div>
+    </div>
+
+    <div id="cart" class="section">
+        <h3>Cart</h3>
+        <p>Here are the items you've selected:</p>
+        <div id="displayCart"></div>
+    </div>
+</body>
+
+<footer>
+    Developed by Justin Proulx (300060172) with code from SEG-Module-2
+</footer>
+
+</html>
