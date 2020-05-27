@@ -59,7 +59,7 @@ var products = [
 		glutenFree: true,
 		organic: false,
 		price: 2.99,
-        image: "https://forum.wordreference.com/proxy.php?image=https%3A%2F%2Fgapc.blob.core.windows.net%2Fthemommyguide%2Fimages%2Flifestyle%2Fbananas1.jpeg&hash=c96f8cef63e62b5dd090641715f59a09",
+        image: "https://image.shutterstock.com/image-photo/bananas-isolated-on-white-background-600w-1724189497.jpg",
         type: 1
 	},
 	{
@@ -68,7 +68,7 @@ var products = [
 		glutenFree: true,
 		organic: true,
         price: 3.99,
-        image: "https://forum.wordreference.com/proxy.php?image=https%3A%2F%2Fgapc.blob.core.windows.net%2Fthemommyguide%2Fimages%2Flifestyle%2Fbananas1.jpeg&hash=c96f8cef63e62b5dd090641715f59a09",
+        image: "https://thumbs.dreamstime.com/z/single-banana-organic-white-background-32629137.jpg",
         type: 1
 	},
 	{
